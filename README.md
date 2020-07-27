@@ -1,2 +1,3 @@
 # Parallel Implementation on Genetic Algorithm for Solving TSP
- Final project of UCI EECS224-High Performance Computing
+## Final project of UCI EECS224-High Performance Computing
+ Traveling salesman problem (TSP) is quite known in the field of combinatorial optimization. There had been many flexible attempts to address this problem using genetic algorithms (GA). With the significantly increasing of the dataset in real world, the sequential method constrains the performance of algorithms. This project proposes three parallel methods based on using sequential GA to solve TSP problem, aiming at improving the efficiency of sequential solutions. Using these parallel methods, we ultimately got a better path with shorter distance than that of sequential algorithm and reached four times speedup.
